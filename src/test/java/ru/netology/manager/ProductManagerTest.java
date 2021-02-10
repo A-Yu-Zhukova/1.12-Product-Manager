@@ -59,7 +59,7 @@ public class ProductManagerTest {
     }
 
     @Test
-    public void SearchBookByName() {
+    public void searchBookByName() {
         manager.add(book1);
         manager.add(book2);
         manager.add(book3);
@@ -74,7 +74,7 @@ public class ProductManagerTest {
     }
 
     @Test
-    public void SearchBookByAuthor() {
+    public void searchBookByAuthor() {
         manager.add(book1);
         manager.add(book2);
         manager.add(book3);
@@ -89,7 +89,7 @@ public class ProductManagerTest {
     }
 
     @Test
-    public void SearchSmartphoneByName() {
+    public void searchSmartphoneByName() {
         manager.add(book1);
         manager.add(book2);
         manager.add(book3);
@@ -104,7 +104,7 @@ public class ProductManagerTest {
     }
 
     @Test
-    public void SearchSmartphoneByManufacturer() {
+    public void searchSmartphoneByManufacturer() {
         manager.add(book1);
         manager.add(book2);
         manager.add(book3);
@@ -119,7 +119,7 @@ public class ProductManagerTest {
     }
 
     @Test
-    public void SearchBothProductByName() {
+    public void searchBothProductByName() {
         manager.add(book1);
         manager.add(book2);
         manager.add(book3);
@@ -134,7 +134,7 @@ public class ProductManagerTest {
     }
 
     @Test
-    public void SearchBadProduct() {
+    public void searchBadProduct() {
         manager.add(book1);
         manager.add(book2);
         manager.add(book3);

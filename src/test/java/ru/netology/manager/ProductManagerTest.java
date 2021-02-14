@@ -145,7 +145,7 @@ public class ProductManagerTest {
         Product[] actual = manager.searchBy("NoProduct");
         Product[] expected = new Product[]{};
 
-        assertArrayEquals(expected, actual1);
+        assertArrayEquals(expected, actual);
     }
 }
 
